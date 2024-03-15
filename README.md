@@ -38,6 +38,9 @@ python3 client.py
 ```bash
 python3 client.py
 ```
+**Demo**
+![image](https://github.com/BehroozBvk/chat-dynamodb/assets/17563730/f0eb13de-9657-469e-8987-fe01c8e5ae77)
+
 
 Finally, enter the ID of the client you want to send a message to and then type and send your message.
 
