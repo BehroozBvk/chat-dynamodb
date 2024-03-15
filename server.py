@@ -37,7 +37,7 @@ def message_received(client, server, message):
 
 def save(sender_id,receiver_id,message):
     
-    response = chat_table.put_item(
+    chat_table.put_item(
         Item={
                 'id': str(uuid.uuid4()),
                 'sender_id' : sender_id,
@@ -47,7 +47,7 @@ def save(sender_id,receiver_id,message):
                 'created_at' : datetime.now().isoformat()
             }
         )
-    print(f'Save response: {response}') 
+    print(f'Save message successfullt\n') 
 
 
 server = WebsocketServer(HOST,PORT)
