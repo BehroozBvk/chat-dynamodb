@@ -1,45 +1,47 @@
-**Installation**
+## Installation
 
-_Step 1:_
+**_Step 1:_**
 
 ```bash
 python3 -m venv .venv
 ```
 
-_Step 2:_
+**_Step 2:_**
 
 ```bash
 source ./.venv/bin/active
 ```
 
-_Step 3:_
+**_Step 3:_**
 
 ```bash
 pip3 install -r requrements.txt -t ./.venv/lib/python3.11/site-packages
 ```
 
-_Step 4:_
+**_Step 4:_**
 
 ```bash
 python3 server.py
 ```
 
-run multiply client:
 
-`client1:`
+## run multiply client:
 
-```bash
-python3 client.py
-```
-
-`client2:`
+**client1:**
 
 ```bash
 python3 client.py
 ```
 
-`client3:`
+**client2:**
 
 ```bash
 python3 client.py
 ```
+
+Finally, enter the ID of the client you want to send a message to and then type and send your message.
+
+
+<br>
+
+>Note: If you want to send a message to all existing users, just enter the value -1 and the message will be sent to all users.
