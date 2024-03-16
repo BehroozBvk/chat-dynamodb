@@ -47,7 +47,7 @@ def save(sender_id,receiver_id,message):
                 'created_at' : datetime.now().isoformat()
             }
         )
-    print(f'Save message successfullt\n') 
+    print(f'Save message successfully\n') 
 
 
 server = WebsocketServer(HOST,PORT)
